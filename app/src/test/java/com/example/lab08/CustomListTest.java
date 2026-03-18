@@ -23,18 +23,18 @@ public class CustomListTest {
         assertEquals(2,l);
     }
 
-//    @Test void deleteCity(){
-//        CustomList list = new CustomList();
-//        City city = new City("Edmonton", "AB");
-//        list.addCity(city);
-//
-//        assertEquals(1, list.countCities());
-//
-//        list.deleteCity(city);
-//
-//        assertEquals(0, list.countCities());
-//
-//    }
+    @Test void deleteCity(){
+        CustomList list = new CustomList();
+        City city = new City("Edmonton", "AB");
+        list.addCity(city);
+
+        assertEquals(1, list.countCities());
+
+        list.deleteCity(city);
+
+        assertEquals(0, list.countCities());
+
+    }
 
 
 
